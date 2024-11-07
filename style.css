@@ -1,0 +1,38 @@
+:root {
+  --AlmostWhite: hsl(0, 0%, 98%);
+  --MediumGray: hsl(0, 0%, 41%);
+  --AlmostBlack: hsl(0, 0%, 8%);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 1440px;
+}
+
+header p {
+  font-size: 18px;
+  padding: 0 16px;
+}
+@media (max-width: 768px) {
+  .spon img {
+    width: 60px;
+  }
+}
+
+@media (width > 768px) {
+  header {
+    margin: 0 180px;
+  }
+  header h1 {
+    padding-right: 200px;
+  }
+}
+.para {
+  padding-right: 200px;
+}
+header p {
+  padding-left: 0;
+  padding-right: 250px;
+}
